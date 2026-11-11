@@ -10,6 +10,7 @@ Actividades realizadas:
 
 Pendiente: Comenzar con la programación en Java y la implementación de las estructuras de mapas.
 
+
 Día 2: 10/11/2026
 Actividades realizadas:
 Análisis y diseño del Almacén Digital.

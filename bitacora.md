@@ -9,7 +9,6 @@ Actividades realizadas:
 6) Dificultades: Estamos familiarizándonos con las herramientas que vamos a utilizar para trabajar en equipo.
 
 
-
 Día 2: 10/11/2026
 Tarea que se realizó en el día: Analizamos los requerimientos del sistema Almacén Digital.
 1)Identificamos las funcionalidades de inventario, ventas y reportes.

@@ -4,6 +4,8 @@ Integrantes:
 Natalia Elizabeth Villarroel. 
 Lourdes Aldana Villarreal.
 
+Link de Trello: https://trello.com/b/Lr7saYz0/proyecto-integrador-aed-ii-almacen-digital
+
 Proyecto Integrador AED II – ALMACÉN DIGITAL.
 Tema 7 – Mapas (HashMap, LinkedHashMap y TreeMap).
 

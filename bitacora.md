@@ -22,4 +22,4 @@ Responsable de cada tarea:
 
 Tarea que realizamos juntas: definición de requerimientos compartidos e integración entre los módulos.
 
-Pendiente: Comenzar con la programación en Java y la implementación de las estructuras de mapas.
+

@@ -11,13 +11,15 @@ Actividades realizadas:
 
 
 Día 2: 10/11/2026
-Actividades realizadas:
-Análisis y diseño del Almacén Digital.
- Análisis de requerimientos del inventario: 
-  - Definir qué información almacenará cada producto: código, nombre, precio y cantidad disponible.
-  - Diseño de alta de productos: Planificar cómo agregar productos al HashMap, utilizando el código como clave y evitando códigos duplicados.
- Ventas, cálculos y reportes.
-  - Diseño del módulo de ventas: Definir cómo registrar una venta, consultar el producto por código y verificar la cantidad disponible.
-  - Planificación de cálculos y reportes: Definir el cálculo del subtotal, importe total, ingresos acumulados y datos que mostraran los reportes en Github.
+Tarea que se realizó en el día: Analizamos los requerimientos del sistema Almacén Digital.
+1)Identificamos las funcionalidades de inventario, ventas y reportes.
+2)Definimos las historias de usuario y los principales casos de uso.
+3)Establecimos el uso de Map<Integer, Articulo>, HashMap y TreeMap.
+
+Responsable de cada tarea: 
+-Natalia Villarroel: análisis de requerimientos del inventario, registro y consulta de artículos.
+-Lourdes Villarreal: análisis del módulo de ventas, cálculos y reportes.
+
+Tarea que realizamos juntas: definición de requerimientos compartidos e integración entre los módulos.
 
 Pendiente: Comenzar con la programación en Java y la implementación de las estructuras de mapas.

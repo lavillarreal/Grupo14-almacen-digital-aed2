@@ -22,3 +22,19 @@ Responsable de cada tarea:
 Tarea que realizamos juntas: definición de requerimientos compartidos e integración entre los módulos.
 
 
+Día 3 – 11/11/2026
+Tarea que se realizó en el día:
+1)Diseñamos las clases, atributos y métodos del sistema Almacén Digital.
+2)Definimos cómo se conectarán los módulos de inventario y ventas.
+3)Elaboramos el diagrama de clases UML.
+4)Preparamos el documento de diseño del Día 3.
+
+Responsable de cada tarea: 
+Natalia Villarroel: diseño de las clases Articulo e Inventario y sus operaciones.
+Lourdes Villarreal: diseño de las clases Venta y GestionVentas, cálculos y reportes.
+
+Tarea que realizamos juntas: integración de los módulos y elaboración del diagrama UML.
+
+Problemas que nos trabó terminar la tarea más rápido:Tuvimos que revisar y ajustar el diagrama UML para que coincidiera con los contenidos estudiados y los requerimientos del proyecto.
+
+Pendiente: Día 4 – Desarrollo I: comenzar la programación de las clases en Java utilizando Eclipse.

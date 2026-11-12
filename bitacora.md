@@ -16,11 +16,11 @@ Actividades realizadas:
 
 Día 2: 10/11/2026
 Tarea que se realizó en el día: Analizamos los requerimientos del sistema Almacén Digital.
-1)Identificamos las funcionalidades de inventario, ventas y reportes.
+1) Identificamos las funcionalidades de inventario, ventas y reportes.
 
-2)Definimos las historias de usuario y los principales casos de uso.
+2) Definimos las historias de usuario y los principales casos de uso.
 
-3)Establecimos el uso de Map<Integer, Articulo>, HashMap y TreeMap.
+3) Establecimos el uso de Map<Integer, Articulo>, HashMap y TreeMap.
 
 Responsable de cada tarea: 
 -Natalia Villarroel: análisis de requerimientos del inventario, registro y consulta de artículos.
@@ -32,13 +32,13 @@ Tarea que realizamos juntas: definición de requerimientos compartidos e integra
 
 Día 3 – 11/11/2026
 Tarea que se realizó en el día:
-1)Diseñamos las clases, atributos y métodos del sistema Almacén Digital.
+1) Diseñamos las clases, atributos y métodos del sistema Almacén Digital.
 
-2)Definimos cómo se conectarán los módulos de inventario y ventas.
+2) Definimos cómo se conectarán los módulos de inventario y ventas.
 
-3)Elaboramos el diagrama de clases UML.
+3) Elaboramos el diagrama de clases UML.
 
-4)Preparamos el documento de diseño del Día 3.
+4) Preparamos el documento de diseño del Día 3.
 
 Responsable de cada tarea: 
 Natalia Villarroel: diseño de las clases Articulo e Inventario y sus operaciones.

@@ -57,6 +57,7 @@ Tarea que se realizó en el día:
 1) Comenzamos la programación del sistema Almacén Digital en Java utilizando Eclipse.
 2) Desarrollamos las clases Articulo, Inventario, Venta y GestionVentas.
 3) Implementamos Map<Integer, Articulo> con HashMap para gestionar los productos.
+4) Al avance de la programación la subimos a GitHub.
 
 Responsable de cada tarea: 
 Natalia Villarroel: programación de las clases Articulo e Inventario, incluyendo el registro y la búsqueda de productos.

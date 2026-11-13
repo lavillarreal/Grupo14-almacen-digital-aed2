@@ -54,9 +54,9 @@ Captura del tablero: kanban/dia-3.png (parte II)
 Día 4 (12/11/2026)
 
 Tarea que se realizó en el día:
-1)Comenzamos la programación del sistema Almacén Digital en Java utilizando Eclipse.
-2)Desarrollamos las clases Articulo, Inventario, Venta y GestionVentas.
-3)Implementamos Map<Integer, Articulo> con HashMap para gestionar los productos.
+1) Comenzamos la programación del sistema Almacén Digital en Java utilizando Eclipse.
+2) Desarrollamos las clases Articulo, Inventario, Venta y GestionVentas.
+3) Implementamos Map<Integer, Articulo> con HashMap para gestionar los productos.
 
 Responsable de cada tarea: 
 Natalia Villarroel: programación de las clases Articulo e Inventario, incluyendo el registro y la búsqueda de productos.

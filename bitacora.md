@@ -87,5 +87,5 @@ Problemas que nos trabó terminar la tarea más rápido: Tuvimos que asegurarnos
 Pendiente: Realizar pruebas y ajustes generales del sistema (crear las tarjetas de pruebas y correcciones, armar la carpeta /pruebas y completar el archivo README.md).
 
 Captura del tablero: kanban/dia-5.png
-
+Se crea carpeta de pruebas, se sube captura de prueba exitosa del día 5.
 

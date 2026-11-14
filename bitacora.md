@@ -73,7 +73,19 @@ Día 5 (13/11/2026)
 
 Tarea que se realizó en el día:
 1) Continuamos la programación del sistema Almacén Digital en Java utilizando Eclipse.
-2) 
-3) Implementamos Map<Integer, Articulo> con HashMap para gestionar los productos.
-4) Al avance de la programación la subimos a GitHub.
+2) Completamos las funcionalidades de inventario y ventas, integrando ambos módulos del sistema.
+3) Implementamos entrySet() y TreeMap para generar los reportes ordenados y realizamos la versión final de la clase Principal con los 10 productos precargados.
+4) Revisamos la clase Articulo manteniendo su código sin cambios y completamos la versión final de la clase Inventario.
+5) Al avance de la programación la subimos a GitHub.
+
+Responsable de cada tarea: 
+Natalia Villarroel: verificación de la clase Articulo (sin modificaciones) , finalización de la clase Inventario e implementación de entrySet() y TreeMap.
+Lourdes Villarreal: desarrollo de la versión de la clase Principal con los 10 productos cargados, finalización del módulo de ventas e integración general de los módulos.
+
+Problemas que nos trabó terminar la tarea más rápido: Tuvimos que asegurarnos de que los datos precargados en la clase Principal y los recorridos con entrySet() y TreeMap funcionaran correctamente al integrar inventario y ventas.
+
+Pendiente: Realizar pruebas y ajustes generales del sistema (crear las tarjetas de pruebas y correcciones, armar la carpeta /pruebas y completar el archivo README.md).
+
+Captura del tablero: kanban/dia-5.png
+
 

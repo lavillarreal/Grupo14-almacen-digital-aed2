@@ -68,3 +68,12 @@ Problemas que nos trabó terminar la tarea más rápido: Tuvimos que revisar los
 Pendiente: Continuar con el desarrollo del Día 5, completar las funcionalidades de inventario y ventas, implementar entrySet() y TreeMap para los reportes ordenados e integrar ambos módulos.
 
 Captura del tablero: kanban/dia-4.png
+
+Día 5 (13/11/2026)
+
+Tarea que se realizó en el día:
+1) Continuamos la programación del sistema Almacén Digital en Java utilizando Eclipse.
+2) 
+3) Implementamos Map<Integer, Articulo> con HashMap para gestionar los productos.
+4) Al avance de la programación la subimos a GitHub.
+

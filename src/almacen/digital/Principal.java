@@ -47,5 +47,65 @@ public class Principal {
         // Mostramos el inventario actualizado
         System.out.println("INVENTARIO FINAL:");
         inventario.mostrarArticulos();
+    
+     // Creamos la gestion de ventas usando el inventario
+        GestionVentas gestion = new GestionVentas(inventario);
+        
+ // Registramos tres ventas de prueba
+    System.out.println("----- REGISTRO DE VENTAS -----");
+    gestion.registrarVenta(1, 2); // 2 leches
+    gestion.registrarVenta(2, 3); // 3 arroces
+    gestion.registrarVenta(5, 1); // 1 aceite
+
+    // Mostramos los comprobantes
+    System.out.println("----- COMPROBANTES -----");
+    gestion.mostrarComprobante(1);
+    gestion.mostrarComprobante(2);
+    gestion.mostrarComprobante(3);
+
+    // Consultamos los ingresos
+    gestion.mostrarIngresos();
+
+    // Generamos el reporte ordenado con TreeMap
+    gestion.generarReporte();
+
+    // Verificamos el inventario despues de las ventas
+    System.out.println("----- STOCK DESPUES DE LAS VENTAS -----");
+    inventario.mostrarArticulos();
+    
+ // DIA 6 - PRUEBAS DE VENTAS
+
+    System.out.println("----- PRUEBAS DIA 6 -----");
+
+    // Intentamos vender un producto que no existe
+    gestion.registrarVenta(99, 2);
+
+    // Intentamos vender mas unidades de las disponibles
+    gestion.registrarVenta(1, 100);
+
+    // Intentamos vender una cantidad negativa
+    gestion.registrarVenta(2, -3);
+
+    // Comprobamos los ingresos despues de las pruebas
+    gestion.mostrarIngresos();
+
+    // Comprobamos que el stock no haya cambiado
+    inventario.mostrarArticulos();
+    
+ // DIA 6 - PRUEBA DE COMPROBANTES Y REPORTES
+
+    System.out.println("----- PRUEBA DE COMPROBANTES -----");
+
+    // Comprobante de una venta que existe
+    gestion.mostrarComprobante(1);
+
+    // Comprobante de una venta que no existe
+    gestion.mostrarComprobante(99);
+
+    // Reporte de ventas
+    System.out.println("----- REPORTE FINAL -----");
+    gestion.generarReporte();
+    
     }
+    
 }

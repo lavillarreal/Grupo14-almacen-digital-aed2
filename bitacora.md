@@ -89,3 +89,27 @@ Pendiente: Realizar pruebas y ajustes generales del sistema (crear las tarjetas 
 Captura del tablero: kanban/dia-5.png
 Se crea carpeta de pruebas, se sube captura de prueba exitosa del día 5.
 
+
+Día 6 – Pruebas y correcciones (14/11/2026)
+
+Tarea que realizamos:Hoy terminamos de probar el programa para asegurarnos de que el inventario y las ventas funcionaran correctamente juntos.
+
+Natalia descargó los archivos actualizados de GitHub y los importó a Eclipse.
+Probamos las ventas y comprobamos que el stock se descontara correctamente.
+Verificamos que los ingresos totales fueran de $12.000.
+Probamos los comprobantes y los reportes de ventas.
+También hicimos pruebas con productos que no existen, cantidades negativas y stock insuficiente.
+Revisamos algunos detalles del código y sacamos un método que no estábamos utilizando.
+Finalmente, ejecutamos el programa en las dos computadoras y comprobamos que funcionara bien.
+
+Resultado:
+Pudimos integrar nuestras partes del trabajo y las pruebas salieron bien. El programa registra las ventas, actualiza el inventario, calcula los ingresos y muestra los reportes. También avisa cuando intentamos hacer una venta incorrecta.
+
+Actualizamos la carpeta de prueba: 3 imágenes que muestran el resultado exitoso del funcionamiento del códigos. 
+
+Captura del tablero: kanban/dia-6.png (Imágenes subidas 2)
+Se crea carpeta de pruebas, se sube captura de prueba exitosa del día .
+
+Para el día 7:
+Nos queda revisar que esté todo actualizado en GitHub, terminar los últimos detalles de la documentación y prepararnos para explicar el programa en la defensa oral.
+

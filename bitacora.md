@@ -118,4 +118,4 @@ Tarea que realizamos: se ejecutaron pruebas integrales de funcionamiento sobre l
 Revisión del repositorio GitHub
 Actualización de bitácora.
 - Se adjuntó la captura final del tablero Kanban (Trello) evidenciando la totalidad de las tareas en estado "Hecho".
-- Se definió la estructura de la presentación , repartiendo los temas clave entre las integrantes del grupo (Lourdes y Natalia).
+- Se definió la estructura de la presentación , repartimos los temas para la presentación del proyecto. 

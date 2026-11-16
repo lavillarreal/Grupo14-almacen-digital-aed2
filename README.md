@@ -9,7 +9,7 @@ Natalia Elizabeth Villarroel – GitHub: villarroelnatalia08-wq
 Tablero Kanban: https://trello.com/b/Lr7saYz0/proyecto-integrador-aed-ii-almacen-digital
 Las capturas del seguimiento diario se encuentran en la carpeta kanban.
 
-Tema 7 – Mapas (HashMap, LinkedHashMap y TreeMap). 
+Tema 7 – Mapas.
 
 Descripción del negocio:
 Almacén Digital es un sistema pensado para un pequeño almacén o kiosco que necesita organizar sus productos, controlar las cantidades disponibles y registrar sus ventas.
@@ -29,20 +29,19 @@ Modificar los datos de un producto.
 Eliminar productos del inventario.
 Registrar ventas y calcular el total.
 Descontar del stock los productos vendidos.
-Mostrar reportes con los productos ordenados por código.
 
-Utilizamos las siguientes estructuras y operaciones:
-HashMap: para guardar los productos y encontrarlos mediante su código.
-LinkedHashMap: para mantener el orden en que se agregan los productos, cuando lo necesitemos.
-TreeMap: para mostrar reportes ordenados por código.
-entrySet(): para recorrer los productos y consultar su información.
+¿Cómo funciona nuestro programa? 
+Almacén Digital es un programa que hicimos en Java para organizar los productos y las ventas de un almacén.
+La idea es tener un control de los productos que hay disponibles, saber sus precios, cuánto stock queda y cuánto dinero ingresa por las ventas.
 
-Funcionalidades:
-El sistema está organizado en cuatro clases principales:
--Articulo: almacena el código, nombre, precio y stock de cada producto.
--Inventario: permite agregar, buscar, modificar, eliminar y consultar artículos, además de controlar el stock mediante Map y HashMap.
--Venta: registra los datos de cada venta y calcula el subtotal multiplicando el precio por la cantidad vendida.
--GestionVentas: permite registrar ventas, verificar y descontar stock, calcular ingresos, emitir comprobantes y generar reportes ordenados mediante TreeMap.
+
+Estructuras utilizadas y por qué las elegimos:
+Utilizamos Map porque nos permite relacionar cada producto con un código. De esta manera, cuando queremos buscar un artículo, podemos hacerlo directamente por su código sin tener que revisar todos los productos uno por uno.
+Elegimos HashMap para guardar los productos y las ventas porque nos permite agregar, buscar y eliminar datos de manera sencilla.
+Utilizamos entrySet(), que sirve para recorrer los elementos guardados en el mapa y mostrar su información.
+Por último, usamos TreeMap para ordenar las ventas por número al generar los reportes. Esto es importante porque HashMap no garantiza que los datos aparezcan ordenados.
+
+No utilizamos LinkedHashMap porque esta estructura permite mantener el orden en que se agregan los elementos, pero nuestro programa no necesita conservar ese orden. Elegimos HashMap para administrar los productos y las ventas, y TreeMap para generar reportes ordenados. De esta manera, cumplimos igualmente con los requisitos técnicos mínimos establecidos en la consigna del Tema 7.
 
 Herramientas utilizadas:
 Java: para programar el sistema.
@@ -50,22 +49,12 @@ Eclipse: para escribir y ejecutar el código.
 GitHub: para guardar el proyecto y registrar los cambios que hagamos.
 Trello: para organizarnos, dividir las tareas y mostrar nuestros avances mediante un tablero Kanban.
 
-¿Cómo funciona nuestro programa? 
-Almacén Digital es un programa que hicimos en Java para organizar los productos y las ventas de un almacén.
-La idea es tener un control de los productos que hay disponibles, saber sus precios, cuánto stock queda y cuánto dinero ingresa por las ventas.
-
-Para que sea más fácil organizarlo, dividimos el código en cinco clases:
+Para que sea más fácil organizarlo, dividimos el código en cuatro clases funcionales y una clase principal:
 Articulo.java: guarda los datos de cada producto, como su código, nombre, precio y stock.
 Inventario.java: nos permite agregar productos, buscarlos, modificar sus datos, eliminarlos y controlar las cantidades disponibles.
 Venta.java: calcula cuánto cuesta una venta según el precio del producto y la cantidad que se vende.
 GestionVentas.java: registra las ventas, controla que haya stock suficiente, descuenta las unidades vendidas y suma los ingresos. También muestra comprobantes y reportes.
 Principal.java: es donde ponemos en funcionamiento el programa y hacemos las pruebas para ver si todo funciona correctamente.
-
-¿Por qué usamos Map, HashMap y TreeMap?
-Utilizamos Map porque nos permite relacionar cada producto con un código. De esta manera, cuando queremos buscar un artículo, podemos hacerlo directamente por su código sin tener que revisar todos los productos uno por uno.
-Elegimos HashMap para guardar los productos y las ventas porque nos permite agregar, buscar y eliminar datos de manera sencilla.
-También utilizamos entrySet(), que sirve para recorrer los elementos guardados en el mapa y mostrar su información.
-Por último, usamos TreeMap para ordenar las ventas por número al generar los reportes. Esto es importante porque HashMap no garantiza que los datos aparezcan ordenados.
 
 ¿Cómo funciona una venta?
 Por ejemplo, si tenemos 25 leches en el inventario y vendemos 2 a $2.000 cada una, el programa primero comprueba que el producto exista y que tengamos suficientes unidades.

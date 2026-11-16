@@ -9,7 +9,7 @@ Responsables: ambas.
 5) Redactamos y guardamos el README.md.
 6) Dificultades: Estamos familiarizándonos con las herramientas que vamos a utilizar para trabajar en equipo.
 
-No tuvimos dificultades, ambas nos pusimos de acuerdo mediante meet para completar la tarea.
+Al principio tuvimos que familiarizarnos con las herramientas de trabajo, pero logramos organizarnos y completar las tareas mediante reuniones por Meet, sin mayores inconvenientes.
 
 Captura del tablero: kanban/dia-1.png
 

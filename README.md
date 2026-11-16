@@ -22,7 +22,7 @@ Muchos almacenes pequeños todavía llevan el control de sus productos y ventas 
 Elegimos este tema porque las estructuras de tipo mapa permiten almacenar información asociada a una clave.
 En nuestro caso, cada artículo se identifica mediante un código único, lo que facilita su búsqueda y administración.
 
-¿Qué va a poder hacer nuestro programa?
+¿Qué permite hacer nuestro programa?
 Agregar productos con su código, nombre, precio y cantidad disponible.
 Buscar productos por su código.
 Modificar los datos de un producto.
@@ -43,9 +43,8 @@ El sistema está organizado en cuatro clases principales:
 -Inventario: permite agregar, buscar, modificar, eliminar y consultar artículos, además de controlar el stock mediante Map y HashMap.
 -Venta: registra los datos de cada venta y calcula el subtotal multiplicando el precio por la cantidad vendida.
 -GestionVentas: permite registrar ventas, verificar y descontar stock, calcular ingresos, emitir comprobantes y generar reportes ordenados mediante TreeMap.
--Estas funcionalidades se encuentran en distintas etapas de desarrollo e integración.
 
-Herramientas que vamos a usar:
+Herramientas utilizadas:
 Java: para programar el sistema.
 Eclipse: para escribir y ejecutar el código.
 GitHub: para guardar el proyecto y registrar los cambios que hagamos.
@@ -83,14 +82,13 @@ También comprobamos que los comprobantes mostraran los importes correctos y que
 
 Las capturas y los resultados de las pruebas están disponibles en la carpeta pruebas de nuestro repositorio de GitHub.
 
-¿Qué le falta al programa?
-Por ahora funciona desde la consola de Eclipse, es decir, todavía no tiene una pantalla con botones para ingresar los productos o registrar las ventas.
-Los datos se guardan en memoria mientras el programa está funcionando. Cuando lo cerramos, esa información no queda guardada de forma permanente.
-En esta primera versión nos concentramos en que el inventario, las ventas, los cálculos y los reportes funcionaran correctamente, aplicando los contenidos que vimos en la materia.
+Limitaciones actuales y posibles mejoras: 
+El programa funciona desde la consola de Eclipse. Actualmente no cuenta con una interfaz gráfica para ingresar productos o registrar ventas.
+Los datos se almacenan en memoria mientras el programa está en funcionamiento. Al cerrarlo, la información no se conserva de forma permanente.
+Estas características representan posibles mejoras para futuras versiones, ya que en este proyecto nos concentramos en desarrollar e integrar correctamente las funcionalidades del inventario, las ventas, los cálculos y los reportes.
 
 Conclusiones:
-Este proyecto nos permitió poner en práctica lo aprendido en Algoritmos y Estructuras de Datos II, creando un programa pensado para facilitar el trabajo de los pequeños almacenes.
-Aprendimos a utilizar clases y estructuras como Map, HashMap y TreeMap, además de organizarnos para trabajar en equipo. Natalia se encargó del inventario y Lourdes de las ventas, los cálculos y los reportes.
-Una de las principales dificultades fue coordinar nuestros trabajos para que todas las partes del programa funcionen juntas.
-Más adelante, nos gustaría agregar una interfaz gráfica y una forma de guardar la información para no perderla al cerrar el programa.
-Esta conclusión es provisoria y la completaremos cuando terminemos de integrar y probar el sistema.
+Este proyecto nos permitió poner en práctica los conocimientos adquiridos en Algoritmos y Estructuras de Datos II, desarrollando un programa pensado para facilitar la organización de pequeños almacenes.
+Durante el desarrollo aprendimos a trabajar con clases y estructuras como Map, HashMap y TreeMap, y a aplicar sus funcionalidades en situaciones concretas. También fortalecimos nuestra capacidad de organización y trabajo en equipo. Natalia se encargó del inventario y Lourdes de las ventas, los cálculos y los reportes.
+Una de las principales dificultades fue coordinar e integrar ambas partes para lograr que funcionaran correctamente en conjunto. Finalmente, conseguimos completar la integración y realizar las pruebas correspondientes, verificando el funcionamiento del sistema.
+Como posibles mejoras futuras, nos gustaría incorporar una interfaz gráfica y un sistema de almacenamiento permanente de datos.

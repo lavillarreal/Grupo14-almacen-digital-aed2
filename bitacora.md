@@ -113,3 +113,9 @@ Se crea carpeta de pruebas, se sube captura de prueba exitosa del día .
 Para el día 7:
 Nos queda revisar que esté todo actualizado en GitHub, terminar los últimos detalles de la documentación y prepararnos para explicar el programa en la defensa oral.
 
+Día 7 - Revisión final del programa (15/11/2026)
+Tarea que realizamos: se ejecutaron pruebas integrales de funcionamiento sobre la aplicación " Almacén Digital" para garantizar la estabilidad , el correcto manejo de estructura de datos y la ausencia de errores en tiempo de ejecución.
+Revisión del repositorio GitHub
+Actualización de bitácora.
+- Se adjuntó la captura final del tablero Kanban (Trello) evidenciando la totalidad de las tareas en estado "Hecho".
+- Se definió la estructura de la presentación , repartiendo los temas clave entre las integrantes del grupo (Lourdes y Natalia).
